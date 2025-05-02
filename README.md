@@ -25,10 +25,11 @@
    ```
 3. Create a `.env` file in the root directory with the following variables:
    ```
-   PORT=5000
-   MONGODB_URI=mongodb://localhost:27017/notes_app
-   JWT_SECRET=your_jwt_secret_key
-   JWT_EXPIRES_IN=30d
+    PORT = 5010
+
+   MONGO_URI ="mongodb+srv://notesapp:notesapp@notesapp.mynwcjl.mongodb.net/?retryWrites=true&w=majority&appName=notesapp"
+   JWT_SECRET="73dc1ae6ea5fdf61bc61e1ce5043de5a6f12fb02f2146eb407450af1cf1dfb43"
+   JWT_EXPIRES_IN=7d
    ```
 4. Start the server:
    ```
